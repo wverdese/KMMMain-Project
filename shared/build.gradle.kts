@@ -5,7 +5,7 @@ plugins {
 
 kotlin {
     android()
-    
+
     listOf(
         iosX64(),
         iosArm64(),
@@ -22,6 +22,7 @@ kotlin {
             dependencies {
                 implementation(kotlin("test-common"))
                 implementation(kotlin("test-annotations-common"))
+                implementation(project(":kmmLibraryProject:lib"))
             }
         }
         val androidMain by getting

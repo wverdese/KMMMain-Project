@@ -1,7 +1,9 @@
 package me.wverdese.sample.main
 
-class Greeting {
+import me.wverdese.sample.app.Greeting
+
+class GreetingWrapper {
     fun greeting(): String {
-        return "Hello, ${Platform().platform}!"
+        return Greeting().greeting()
     }
 }

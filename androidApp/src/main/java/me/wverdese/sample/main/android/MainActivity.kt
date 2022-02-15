@@ -2,11 +2,11 @@ package me.wverdese.sample.main.android
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import me.wverdese.sample.main.Greeting
 import android.widget.TextView
+import me.wverdese.sample.main.GreetingWrapper
 
 fun greet(): String {
-    return Greeting().greeting()
+    return GreetingWrapper().greeting()
 }
 
 class MainActivity : AppCompatActivity() {
