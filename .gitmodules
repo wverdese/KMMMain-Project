@@ -1,0 +1,3 @@
+[submodule "kmmLibraryProject"]
+	path = kmmLibraryProject
+	url = https://github.com/wverdese/KMMLibrary-Project.git
